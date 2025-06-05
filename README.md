@@ -50,7 +50,7 @@ Developed as a group project by **Mohammed Ihab**, **Abdelrahman Hatem**, and **
 ---
 
 ## 📁 Project Structure
-
+```
 📦 grocery-management/
 ┣ 📜 grocery_management.py # Main application file (entry point)
 ┣ 📁 gui_windows/ # Folder containing GUI window classes
@@ -66,6 +66,7 @@ Developed as a group project by **Mohammed Ihab**, **Abdelrahman Hatem**, and **
 ┃ ┗ 📜 saletak_logo.jpg # Store logo
 ┣ 📁 bills/ # Folder where saved bills are stored
 ┗ 📄 README.md
+```
 
 ## 🚀 Getting Started
 
