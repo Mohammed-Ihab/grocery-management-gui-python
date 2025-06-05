@@ -1,19 +1,57 @@
-# 🛒 Grocery Management App (Python + Tkinter)
+# 🛒 Grocery Management App – Python + Tkinter
 
-A desktop-based Grocery Management System built using **Python** and **Tkinter**. This application provides a simple yet effective interface for managing grocery items, tracking sales, and generating bills — ideal for small shops or personal inventory tracking.
+A desktop-based Grocery Management System built with **Python**, **Tkinter**, **SQLite**, and **CSV**. Designed for small store operations, this app provides a smooth and simple interface for inventory tracking, billing, and admin management.
+
+Developed as a group project by **Mohammed Ihab**, **Abdelrahman Hatem**, and **Abdelrahman Mohamed**.
 
 ---
 
 ## ✨ Features
 
-- 🔍 Add, update, and delete grocery items
-- 📋 View product lists with categories and prices
-- 🧾 Real-time bill generation
-- 💾 Save and reset transactions
-- 🖥️ Clean and user-friendly GUI using Tkinter
-- 🗃️ (Optional) File/database-based storage *(if you used one)*
+- 🔐 **Admin Login & Signup**  
+  Secure login system using SQLite. Admins can sign up with a new username and password.
+
+- 📦 **Product Management**  
+  - Stock stored in CSV file  
+  - Products organized into **4 categories**  
+  - Quantity management via CSV  
+  - Prices are hardcoded  
+  - Admins can open and edit the CSV directly from the app  
+
+- 🧾 **Billing System**  
+  - Generate and display customer bills  
+  - Save bills to a folder  
+  - Send bills to customers via email  
+
+- 🖥️ **Graphical User Interface**  
+  - Built using Python’s Tkinter library  
+  - Custom logo added  
+  - Three main windows: **Main Page**, **Admin Page**, and **Signup Page**
 
 ---
+
+## 🖼️ Screenshots
+
+> Add screenshots here to showcase the interface and billing functionality.
+
+---
+
+## 🛠️ Technologies Used
+
+- Python 3
+- Tkinter (built-in GUI library)
+- SQLite (for admin credentials)
+- CSV files (for stock/product data)
+- `pandas` (CSV operations)
+- `Pillow` (`PIL`) for image handling
+- `smtplib`, `ssl`, `email` (for sending bills via email)
+- Standard libraries: `random`, `os`, `subprocess`
+
+---
+
+## 📁 Project Structure
+
+
 
 ## 🚀 Getting Started
 
@@ -27,3 +65,16 @@ python --version
 ---
 
 ## Clone the Repository
+```bash
+https://github.com/Mohammed-Ihab/grocery-management-gui-python.git
+cd python-tkinter-grocery-management-gui
+```
+
+---
+
+## ▶ Run the Application
+```bash
+python main.py
+```
+
+
