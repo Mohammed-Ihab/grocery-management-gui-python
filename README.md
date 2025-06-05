@@ -30,7 +30,7 @@ Developed as a group project by **Mohammed Ihab**, **Abdelrahman Hatem**, and **
 
 ---
 
-## 🖼️ Screenshots
+## 🖼️ GUI Screenshots
 
 > Add screenshots here to showcase the interface and billing functionality.
 
@@ -71,11 +71,16 @@ Developed as a group project by **Mohammed Ihab**, **Abdelrahman Hatem**, and **
 ## 🚀 Getting Started
 
 ### Prerequisites
-Make sure Python 3 is installed on your system.  
+Make sure ##Python 3## is installed on your system.  
 You can check by running:
 ```bash
 python --version
 ```
+Install ##PIL## and ##pandas## as they are ##NOT## part of python standard library
+```bash
+pip install Pillow
+pip install pandas
+````
 
 ---
 
@@ -86,10 +91,23 @@ https://github.com/Mohammed-Ihab/grocery-management-gui-python.git
 
 ---
 
-### ▶ Run the Application
+### Run the Application
 ```bash
 cd grocery-management-gui-python
 python grocery_management.py
 ```
 
+---
 
+
+## 📌 Notes
+- Admin credentials are stored in a local SQLite users.db file.
+- Product stock is managed via a .csv file that the app can open directly for editing.
+- Generated bills can be saved and emailed directly from the app.
+- The app uses hardcoded product pricing — future versions may support editable pricing.
+
+---
+
+## 📜 License
+
+This project is for educational purposes. Feel free to reuse or modify it for learning.
