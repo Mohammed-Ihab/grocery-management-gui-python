@@ -15,12 +15,6 @@ A desktop-based Grocery Management System built using **Python** and **Tkinter**
 
 ---
 
-## 📸 Screenshots
-
-> *(Add screenshots of your app’s interface here for better presentation)*
-
----
-
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -28,3 +22,8 @@ Make sure Python 3 is installed on your system.
 You can check by running:
 ```bash
 python --version
+```
+
+---
+
+## Clone the Repository
