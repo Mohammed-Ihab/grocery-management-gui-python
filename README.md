@@ -51,7 +51,21 @@ Developed as a group project by **Mohammed Ihab**, **Abdelrahman Hatem**, and **
 
 ## 📁 Project Structure
 
-
+📦 grocery-management/
+┣ 📜 grocery_management.py # Main application file (entry point)
+┣ 📁 gui_windows/ # Folder containing GUI window classes
+┃ ┣ 📜 main_page.py # Main window class
+┃ ┣ 📜 admin_page.py # Admin dashboard class
+┃ ┣ 📜 signup_page.py # Signup window class
+┃ ┗ 📜 loading.py # Loading/splash screen class
+┣ 📁 db/ # Database and data files
+┃ ┣ 📜 users.db # Admin usernames and passwords (SQLite)
+┃ ┗ 📜 stock.csv # Product stock and quantity data
+┣ 📁 assets/ # Images and logos used in the app
+┃ ┣ 📜 signup_bg.jpg # Background image for signup page
+┃ ┗ 📜 saletak_logo.jpg # Store logo
+┣ 📁 bills/ # Folder where saved bills are stored
+┗ 📄 README.md
 
 ## 🚀 Getting Started
 
