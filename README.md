@@ -79,17 +79,17 @@ python --version
 
 ---
 
-## Clone the Repository
+### Clone the Repository
 ```bash
 https://github.com/Mohammed-Ihab/grocery-management-gui-python.git
-cd python-tkinter-grocery-management-gui
 ```
 
 ---
 
-## ▶ Run the Application
+### ▶ Run the Application
 ```bash
-python main.py
+cd grocery-management-gui-python
+python grocery_management.py
 ```
 
 
