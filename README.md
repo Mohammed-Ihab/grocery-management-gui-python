@@ -105,6 +105,7 @@ python grocery_management.py
 - Product stock is managed via a .csv file that the app can open directly for editing.
 - Generated bills can be saved and emailed directly from the app.
 - The app uses hardcoded product pricing — future versions may support editable pricing.
+- Email will not work since it is commented out. It will need to be uncommented, and email and password of the store or developer must be edited in code.
 
 ---
 
