@@ -84,12 +84,12 @@ Developed as a group project by **Mohammed Ihab**, **Abdelrahman Hatem**, and **
 ## 🚀 Getting Started
 
 ### Prerequisites
-Make sure ##Python 3## is installed on your system.  
+Make sure **Python 3** is installed on your system.  
 You can check by running:
 ```bash
 python --version
 ```
-Install ##PIL## and ##pandas## as they are ##NOT## part of python standard library
+Install **PIL** and **pandas** as they are **NOT** part of python standard library
 ```bash
 pip install Pillow
 pip install pandas
