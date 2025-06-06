@@ -32,7 +32,14 @@ Developed as a group project by **Mohammed Ihab**, **Abdelrahman Hatem**, and **
 
 ## 🖼️ GUI Screenshots
 
-> Add screenshots here to showcase the interface and billing functionality.
+- **Main Page**  
+![Main Page](assets/main_page.png)
+
+- **Admin Page**  
+![Admin Page](assets/admin_page.png)
+
+- **Signup Page**  
+![Signup Page](assets/signup_page.png)
 
 ---
 
