@@ -69,6 +69,9 @@ Developed as a group project by **Mohammed Ihab**, **Abdelrahman Hatem**, and **
 ┃ ┣ 📄 users.db               # Admin usernames and passwords (SQLite)
 ┃ ┗ 📄 stock.csv              # Product stock and quantity data
 ┣ 📁 assets/                # Images and logos used in the app
+┃ ┣ 📄 main_page.png          # Screenshot for main page
+┃ ┣ 📄 admin_page.png         # Screenshot for admin page
+┃ ┣ 📄 signup_page.png        # Screenshot for signup page
 ┃ ┣ 📄 signup_bg.jpg          # Background image for signup page
 ┃ ┗ 📄 saletak_logo.jpg       # Store logo
 ┣ 📁 bills/                 # Folder where saved bills are stored
